@@ -1,5 +1,5 @@
 #/Ejercicio 1/
-require_relative 'module.rb'
+require_relative 'modulo.rb'
  
 class Person
     attr_reader :first_name, :last_name, :age
