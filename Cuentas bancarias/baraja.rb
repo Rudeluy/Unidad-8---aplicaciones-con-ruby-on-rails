@@ -26,7 +26,6 @@ attr_reader :cartas
     agrupadas
   end
 end
-
 mazo1 = Baraja.new()
 mazo1.barajar
 puts mazo1.sacar
