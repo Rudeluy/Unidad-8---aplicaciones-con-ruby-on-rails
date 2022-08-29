@@ -1,5 +1,6 @@
-/Ejercicio 1/
-
+#/Ejercicio 1/
+require_relative 'module.rb'
+ 
 class Person
     attr_reader :first_name, :last_name, :age
     def initialize(first, last, age)
@@ -48,9 +49,8 @@ Teacher.new("Rodrigo", "Albornoz", 45).talk
 Parent.new("Jorge", "Soto", 40).introduce
 Parent.new("Jorge", "Soto", 40).talk
 
-/Ejercicio 2/
+#/Ejercicio 2/
 
-require_relative 'module.rb'
 
 class Animal
     attr_reader :name
